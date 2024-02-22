@@ -16,7 +16,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          <h1><div style="text-align: center;">{{ site.title | default: site.github.repository_name }}</div></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -44,30 +44,28 @@
 
 
 
-          <div class="textblock">
+          <div class="textblock" style="text-align: center;">
             <div class="contact">
                 <p>
                     <b>Email: </b>  <a href="mailto:youssef.allouah@epfl.ch">youssef.allouah@epfl.ch</a>
                     <br>
                     <b>Office:</b> EPFL, <a href="https://plan.epfl.ch/?room==INR%20327">INR 327</a>, 1015 Lausanne, Switzerland
                 </p>
-                <p>
-                <a href='https://linkedin.com/in/youssef-allouah-8ab264190' target='_blank'>
+                <p><a href='https://linkedin.com/in/youssef-allouah-8ab264190' target='_blank'>
 <!--                      <span class='icon' style='background-image: url(/images/linkedin-icon-64x64.png)'></span>-->
                     <i class="fa-brands fa-linkedin"></i>
                       LinkedIn
-                </a>
+                </a>|
                 <a href='https://twitter.com/ys_alh' target='_blank'>
 <!--                      <span class='icon' style='background-image: url(/../assets/img/photo.jpeg)'></span>-->
                     <i class="fa-brands fa-square-twitter"></i>
                       Twitter
-                </a>
+                </a>|
                 <a href='https://scholar.google.com/citations?user=kVZu88cAAAAJ&hl=en&oi=ao' target='_blank'>
 <!--                      <span class='icon' style='background-image: url(/images/gscholar-icon-64x64.png)'></span>-->
                     <i class='fa-brands fa-google-scholar'></i>
-                      Google Scholar
-                </a>
-                </p>
+                      G. Scholar
+                </a></p>
             </div>
           </div>
       </header>
