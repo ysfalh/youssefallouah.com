@@ -38,8 +38,8 @@ S. Khalife, D. Gonçalves, <ins>Y. Allouah</ins>, L. Liberti. _JMLR 2021_
 
 # Talks
 
-**Trustworthy Machine Learning** [<a href="https://www.youtube.com/watch?v=ccIzC603Vo4&t=9987s&ab_channel=UM6POfficiel">video</a>] _UM6P Science Week 2024_\
-**Trustworthy Machine Learning: Robustness and Privacy** [<a href="https://www.youtube.com/watch?v=y1kWgQ-XonM&t=243s&ab_channel=MoroccoAI">video</a>] _MoroccoAI Webinar Series 2023_\
-**Robust Sparse Voting** [<a href="https://www.youtube.com/watch?v=k2qRDbU3HXs&ab_channel=Tournesol">video</a>] _PODC 2022, Tournesol Talks 2023_
+**Trustworthy Machine Learning** [<a href="https://www.youtube.com/watch?v=ccIzC603Vo4&t=9987s&ab_channel=UM6POfficiel">video</a>] _UM6P, 2024_\
+**Trustworthy Machine Learning: Robustness and Privacy** [<a href="https://www.youtube.com/watch?v=y1kWgQ-XonM&t=243s&ab_channel=MoroccoAI">video</a>] _MoroccoAI, 2023_\
+**Robust Sparse Voting** [<a href="https://www.youtube.com/watch?v=k2qRDbU3HXs&ab_channel=Tournesol">video</a>] _PODC 2022; Tournesol, 2023_
 
 
