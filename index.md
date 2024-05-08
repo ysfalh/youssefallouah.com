@@ -20,6 +20,9 @@ My research interests lie in trustworthy machine learning, with a focus on the t
 
 # Selected Publications
 
+**The Privacy Power of Correlated Noise in Decentralized Learning** [<a href="https://arxiv.org/abs/2405.01031">paper</a>][<a href="https://github.com/elfirdoussilab1/DECOR">code</a>]\
+<ins>Y. Allouah</ins>, A. Koloskova, A. El Firdoussi, M. Jaggi, R. Guerraoui. ICML 2024
+
 **Robust Distributed Learning: Tight Error Bounds and Breakdown Point under Data Heterogeneity** [<a href="https://arxiv.org/abs/2309.13591">paper</a>][<a href="https://github.com/GeovaniRizk/Robust-Distributed-Learning-Tight-Error-Bounds-and-Breakdown-Point-under-Data-Heterogeneity">code</a>][<a href="https://slideslive.com/39008854/robust-distributed-learning-tight-error-bounds-and-breakdown-point-under-data-heterogeneity?ref=speaker-53643">video</a>]\
 <ins>Y. Allouah</ins>, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk. _NeurIPS 2023 **Spotlight**_
 
