@@ -36,7 +36,7 @@ My research interests lie in trustworthy machine learning, with a focus on the t
 <ins>Y. Allouah</ins>, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. _AISTATS 2023_
 
 
-**Further Results on Latent Discourse models and Word Embeddings** [<a href="https://www.jmlr.org/papers/v22/20-1413.html">paper</a>]\
+**Latent Discourse Models and Word Embeddings** [<a href="https://www.jmlr.org/papers/v22/20-1413.html">paper</a>]\
 S. Khalife, D. Gonçalves, <ins>Y. Allouah</ins>, L. Liberti. _JMLR 2021_
 
 # Talks
