@@ -4,7 +4,7 @@ layout: default
 
 <p style="text-align: justify;">I am a fourth-year PhD student at <a href="https://www.epfl.ch/en/">EPFL</a>.
 I previously graduated from <a href="https://www.polytechnique.edu/en/">Ecole polytechnique</a> in Mathematics and Computer Science in 2021, after a research internship at <a href="https://www.amazon.science/">Amazon</a>.
-During my PhD, I have spent time at <a href="https://www.stanford.edu/">Stanford University</a>.
+During my PhD, I have also spent time at <a href="https://www.stanford.edu/">Stanford University</a>.
 My research interests lie in trustworthy machine learning, with a focus on the theory and practice of robustness and privacy in distributed settings.</p>
 
 [//]: # (Text can be **bold**, _italic_, or ~~strikethrough~~.)
