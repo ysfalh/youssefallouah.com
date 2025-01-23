@@ -20,24 +20,27 @@ My research interests lie in trustworthy machine learning, with a focus on the t
 
 # Selected Publications
 
+**The Utility and Complexity of In- and Out-of-Distribution Machine Unlearning** [<a href="https://arxiv.org/abs/2412.09119">paper</a>]\
+Y. Allouah, J. Kazdan, R. Guerraoui, S. Koyejo. ICLR 2025
+
 **The Privacy Power of Correlated Noise in Decentralized Learning** [<a href="https://arxiv.org/abs/2405.01031">paper</a>][<a href="https://github.com/elfirdoussilab1/DECOR">code</a>]\
-<ins>Y. Allouah</ins>, A. Koloskova, A. El Firdoussi, M. Jaggi, R. Guerraoui. ICML 2024
+Y. Allouah, A. Koloskova, A. El Firdoussi, M. Jaggi, R. Guerraoui. ICML 2024
 
 **Robust Distributed Learning: Tight Error Bounds and Breakdown Point under Data Heterogeneity** [<a href="https://arxiv.org/abs/2309.13591">paper</a>][<a href="https://github.com/GeovaniRizk/Robust-Distributed-Learning-Tight-Error-Bounds-and-Breakdown-Point-under-Data-Heterogeneity">code</a>][<a href="https://slideslive.com/39008854/robust-distributed-learning-tight-error-bounds-and-breakdown-point-under-data-heterogeneity?ref=speaker-53643">video</a>]\
-<ins>Y. Allouah</ins>, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk. _NeurIPS 2023 **Spotlight**_
+Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk. _NeurIPS 2023 **Spotlight**_
 
 **On the Privacy-Robustness-Utility Trilemma in Distributed Learning** [<a href="https://arxiv.org/abs/2302.04787">paper</a>][<a href="https://slideslive.com/39004056/on-the-privacyrobustnessutility-trilemma-in-distributed-learning?ref=speaker-124898">video</a>]\
-<ins>Y. Allouah</ins>, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. _ICML 2023_
+Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. _ICML 2023_
 
 **Robust Sparse Voting** [<a href="https://arxiv.org/abs/2202.08656">paper</a>][<a href="https://github.com/ysfalh/robust-voting">code</a>]\
-<ins>Y. Allouah</ins>, R. Guerraoui, L. Hoang, O. Villemaud. _AISTATS 2024_
+Y. Allouah, R. Guerraoui, L. Hoang, O. Villemaud. _AISTATS 2024_
 
 **Fixing by Mixing: a Recipe for Optimal Byzantine ML under Heterogeneity** [<a href="https://arxiv.org/abs/2302.01772">paper</a>]\
-<ins>Y. Allouah</ins>, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. _AISTATS 2023_
+Y. Allouah, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. _AISTATS 2023_
 
 
 **Latent Discourse Models and Word Embeddings** [<a href="https://www.jmlr.org/papers/v22/20-1413.html">paper</a>]\
-S. Khalife, D. Gonçalves, <ins>Y. Allouah</ins>, L. Liberti. _JMLR 2021_
+S. Khalife, D. Gonçalves, Y. Allouah, L. Liberti. _JMLR 2021_
 
 # Talks
 
