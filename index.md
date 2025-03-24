@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<p style="text-align: justify;">I am a fourth-year PhD student at <a href="https://www.epfl.ch/en/">EPFL</a>.
-I previously graduated from <a href="https://www.polytechnique.edu/en/">Ecole polytechnique</a> in Mathematics and Computer Science in 2021, after a research internship at <a href="https://www.amazon.science/">Amazon</a>.
-During my PhD, I have also spent time at <a href="https://www.stanford.edu/">Stanford University</a>.
-My research interests lie in trustworthy machine learning, with a focus on the theory and practice of robustness and privacy in distributed settings.</p>
+<p style="text-align: justify;">
+I am a PhD student at <a href="https://www.epfl.ch/en/">EPFL</a> working on trustworthy machine learning. My research interests include robustness, privacy, and unlearning, especially within distributed and collaborative learning environments. 
+I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique</a> in Mathematics and Computer Science, and have also conducted research at <a href="https://www.amazon.science/">Amazon</a> and <a href="https://www.stanford.edu/">Stanford University</a>.</p>
+
 
 [//]: # (Text can be **bold**, _italic_, or ~~strikethrough~~.)
 
