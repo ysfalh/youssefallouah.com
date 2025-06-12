@@ -24,7 +24,7 @@ I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique
 Y. Allouah, R. Guerraoui, J. Stephan. **ICML** 2025
 
 **Certified Unlearning for Neural Networks** [<a href="https://arxiv.org/abs/2506.06985">paper</a>][<a href="https://github.com/stair-lab/certified-unlearning-neural-networks-icml-2025">code</a>]\
-A. Koloskova*, Y. Allouah*, A. Jha, R. Guerraoui, S. Koyejo. (*equal contribution) **ICML** 2025
+A. Koloskova\*, Y. Allouah\*, A. Jha, R. Guerraoui, S. Koyejo. (\*equal contribution) **ICML** 2025
 
 **The Utility and Complexity of In- and Out-of-Distribution Machine Unlearning** [<a href="https://arxiv.org/abs/2412.09119">paper</a>][<a href="https://iclr.cc/media/iclr-2025/Slides/30223.pdf">slides</a>]\
 Y. Allouah, J. Kazdan, R. Guerraoui, S. Koyejo. **ICLR** 2025
