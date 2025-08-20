@@ -22,6 +22,9 @@ I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique
 
 A full list of publications is available at this <a href="https://scholar.google.com/citations?hl=en&user=kVZu88cAAAAJ&view_op=list_works&sortby=pubdate">page</a>.
 
+**Distributional Unlearning: Forgetting Distributions, Not Just Samples** [<a href="https://arxiv.org/abs/2507.15112">paper</a>]\
+Y. Allouah, R. Guerraoui, S. Koyejo. **ICML** 2025 Machine Unlearning for Generative AI workshop, _Oral_
+
 **Towards Trustworthy Federated Learning with Untrusted Participants** [<a href="https://arxiv.org/abs/2505.01874">paper</a>]\
 Y. Allouah, R. Guerraoui, J. Stephan. **ICML** 2025
 
