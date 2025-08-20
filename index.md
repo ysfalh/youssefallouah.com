@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p style="text-align: justify;">
-I am a final-year PhD student at <a href="https://www.epfl.ch/en/">EPFL</a> working on trustworthy machine learning. My research interests include privacy, robustness, and unlearning, especially within distributed and collaborative learning environments. 
+I am a final-year PhD student at the Swiss Federal Institute of Technology Lausanne, <a href="https://www.epfl.ch/en/">EPFL</a>, working on trustworthy machine learning. My research interests include privacy, robustness, and unlearning, especially within distributed and collaborative learning environments. 
 I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique</a> in Mathematics and Computer Science, and have also conducted research at <a href="https://www.amazon.science/">Amazon</a> and <a href="https://www.stanford.edu/">Stanford University</a>.</p>
 
 
@@ -19,6 +19,8 @@ I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique
 [//]: # (There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.)
 
 # Selected Publications
+
+A full list of publications is available at this <a href="https://scholar.google.com/citations?user=kVZu88cAAAAJ&hl=en&oi=ao">page</a>.
 
 **Towards Trustworthy Federated Learning with Untrusted Participants** [<a href="https://arxiv.org/abs/2505.01874">paper</a>]\
 Y. Allouah, R. Guerraoui, J. Stephan. **ICML** 2025
@@ -48,7 +50,7 @@ Y. Allouah, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. **AIST
 
 
 
-# Talks
+# Talks (outdated)
 
 **Trustworthy Machine Learning** [<a href="https://www.youtube.com/live/ccIzC603Vo4?si=VqPOyGQMjBb5bI_c&t=6900">video</a>] _UM6P College of Computing, 2024_\
 **Trustworthy Machine Learning: Robustness and Privacy** [<a href="https://www.youtube.com/watch?v=y1kWgQ-XonM&t=243s&ab_channel=MoroccoAI">video</a>] _MoroccoAI Seminar, 2023_\
