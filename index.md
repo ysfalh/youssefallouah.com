@@ -50,7 +50,6 @@ Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk. **NeurIPS** 2023, _Spotli
 Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. **ICML** 2023
 
 
-
 **Fixing by Mixing: a Recipe for Optimal Byzantine ML under Heterogeneity** [<a href="https://arxiv.org/abs/2302.01772">paper</a>]\
 Y. Allouah, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan. **AISTATS** 2023
 
