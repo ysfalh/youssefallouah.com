@@ -25,7 +25,7 @@ Before that, I graduated from <a href="https://www.polytechnique.edu/en/">Ecole 
 
 A full list of publications is available at this <a href="https://scholar.google.com/citations?hl=en&user=kVZu88cAAAAJ&view_op=list_works&sortby=pubdate">page</a>.
 
-**Distributional Machine Unlearning via Selective Data Removal** [<a href="https://arxiv.org/abs/2507.15112">paper</a>]\
+**Distributional Machine Unlearning via Selective Data Removal** [<a href="https://arxiv.org/abs/2507.15112">paper</a>][<a href="https://github.com/ysfalh/unlearning-distribution">code</a>]\
 Y. Allouah, R. Guerraoui, S. Koyejo. **ICLR** 2026 & ICML 2025 Machine Unlearning for Generative AI workshop, _Oral_
 
 **Towards Trustworthy Federated Learning with Untrusted Participants** [<a href="https://arxiv.org/abs/2505.01874">paper</a>]\
