@@ -5,7 +5,7 @@ layout: default
 <p style="text-align: justify;">
 I am a postdoctoral researcher at <a href="https://www.stanford.edu/">Stanford University</a>, working on trustworthy machine learning. 
 I am also part of the <a href="https://simons.berkeley.edu/homepage">Simons Institute</a>'s Federated and Collaborative Learning <a href="https://simons.berkeley.edu/programs/federated-collaborative-learning">program</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a>.
-My research interests include privacy, robustness, and unlearning, including within distributed settings.
+My research interests span privacy, robustness, and unlearning, including within distributed settings.
 I completed my PhD in Computer Science at <a href="https://www.epfl.ch/en/">EPFL</a>, the Swiss Federal Institute of Technology in Lausanne. 
 Before that, I graduated from <a href="https://www.polytechnique.edu/en/">Ecole Polytechnique</a> in Mathematics and Computer Science, and have also conducted research at <a href="https://www.amazon.science/">Amazon</a>.</p>
 
