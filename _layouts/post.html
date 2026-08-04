@@ -1,14 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <main class="page article-page">
+      <article>
+        <header class="article-header">
+          <h1>{{ page.title }}</h1>
+          <p class="article-meta">{{ page.author | default: "Youssef Allouah" }} · Written {{ page.date | date: "%B %-d, %Y" }}</p>
+        </header>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+        <div class="article-body">
+          {{ content }}
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

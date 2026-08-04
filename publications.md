@@ -1,20 +1,19 @@
 ---
 layout: default
+title: Publications
+permalink: /publications.html
 ---
 
-<nav class="page-toc" aria-label="Table of contents">
-  <span class="toc-label">Contents</span>
-  <a href="{{ "/publications.html" | relative_url }}">Publications</a>
-  <a href="{{ "/talks.html" | relative_url }}">Talks</a>
+<nav class="page-toc" aria-label="Page navigation">
+  <span class="toc-label">Publications</span>
+  <a href="{{ "/" | relative_url }}">Home</a>
   <a href="{{ "/blog.html" | relative_url }}">Blog</a>
 </nav>
 
-## Recent Publications
+## Publications
 
-<p class="note">See the <a href="{{ "/publications.html" | relative_url }}">publications</a> page for the complete list.</p>
-
-{% assign recent_publications = site.data.publications | where: "recent", true %}
-{% for publication in recent_publications %}
+{% assign publications = site.data.publications | sort: "year" | reverse %}
+{% for publication in publications %}
 <div class="paper">
   <span class="paper-title">{{ publication.title }}</span>
   {% if publication.links %}<span class="paper-links">{% for link in publication.links %}[<a href="{{ link.url }}">{{ link.label }}</a>]{% unless forloop.last %} {% endunless %}{% endfor %}</span>{% endif %}<br>
