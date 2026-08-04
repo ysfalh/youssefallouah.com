@@ -12,7 +12,7 @@
 
 - category: "Main Publications"
   year: 2026
-  title: "What to Forget? Forget Set Curation for Language Models"
+  title: "What to Forget in Unlearning? Forget Set Curation for Language Models"
   authors: "A. Jha, A. Khatua, Y. Allouah, S. Koyejo."
   venue: "FoGen@ICML 2026."
   recent: true
