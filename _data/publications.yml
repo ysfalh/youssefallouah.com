@@ -61,6 +61,15 @@
     - label: slides
       url: https://iclr.cc/media/iclr-2025/Slides/30223.pdf
 
+- category: "Thesis"
+  year: 2025
+  title: "The Cost of Trust in Machine Learning: Privacy, Robustness, Unlearning, and their Interactions"
+  authors: "Y. Allouah."
+  venue: "EPFL doctoral thesis, 2025."
+  links:
+    - label: thesis
+      url: https://infoscience.epfl.ch/entities/publication/57603c6c-5a1e-485c-af6b-b3c6b777ae26
+
 - category: "Main Publications"
   year: 2024
   title: "The Privacy Power of Correlated Noise in Decentralized Learning"
