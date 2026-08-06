@@ -155,6 +155,19 @@ body {
   color: var(--muted);
 }
 
+.email-line {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.email-fragment {
+  display: inline-block;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
 .content {
   font-size: 1rem;
 }
