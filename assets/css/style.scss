@@ -162,6 +162,10 @@ body {
   white-space: nowrap;
 }
 
+.email-address {
+  color: var(--text);
+}
+
 .email-fragment {
   display: inline-block;
   direction: rtl;
