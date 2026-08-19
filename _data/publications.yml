@@ -16,6 +16,12 @@
   authors: "A. Jha, A. Khatua, Y. Allouah, S. Koyejo."
   venue: "FoGen@ICML 2026."
   recent: true
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2608.14855
+    - label: code
+      url: https://github.com/akhatua2/CleanSlate
+
 
 - category: "Main Publications"
   year: 2026
