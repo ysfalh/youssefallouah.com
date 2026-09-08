@@ -4,20 +4,23 @@ title: Publications
 permalink: /publications.html
 ---
 
-<nav class="page-toc" aria-label="Page navigation">
-  <span class="toc-label">Publications</span>
-  <a href="{{ "/" | relative_url }}">Home</a>
-  <a href="{{ "/blog.html" | relative_url }}">Blog</a>
-</nav>
-
-## Publications
-
-{% assign publications = site.data.publications | sort: "year" | reverse %}
-{% for publication in publications %}
-<div class="paper">
-  <span class="paper-title">{{ publication.title }}</span>
-  {% if publication.links %}<span class="paper-links">{% for link in publication.links %}[<a href="{{ link.url }}">{{ link.label }}</a>]{% unless forloop.last %} {% endunless %}{% endfor %}</span>{% endif %}<br>
-  <span class="authors">{{ publication.authors }}</span><br>
-  <span class="venue">{{ publication.venue | replace: "Oral", "<strong>Oral</strong>" | replace: "Spotlight", "<strong>Spotlight</strong>" }}</span>
-</div>
+{% assign publications = site.data.publications | where_exp: "publication", "publication.category != 'Thesis'" %}
+{% assign publication_years = publications | group_by: "year" | sort: "name" | reverse %}
+{% for publication_year in publication_years %}
+<section class="publication-year-group" aria-labelledby="year-{{ publication_year.name }}">
+  <h2 class="publication-year" id="year-{{ publication_year.name }}">{{ publication_year.name }}</h2>
+  {% for publication in publication_year.items %}
+  {% include publication.html publication=publication %}
+  {% endfor %}
+</section>
 {% endfor %}
+
+{% assign theses = site.data.publications | where: "category", "Thesis" | sort: "year" | reverse %}
+{% if theses.size > 0 %}
+<section class="publication-year-group" aria-labelledby="thesis">
+  <h2 class="publication-year" id="thesis">Doctoral thesis</h2>
+  {% for publication in theses %}
+  {% include publication.html publication=publication %}
+  {% endfor %}
+</section>
+{% endif %}

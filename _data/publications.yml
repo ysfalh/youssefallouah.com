@@ -1,8 +1,9 @@
 - category: "Main Publications"
   year: 2026
   title: "The Distillation Game: Adaptive Attacks & Efficient Defenses"
-  authors: "Y. Allouah*, M. Haghifam*, S. Koyejo, R. Shokri. (*equal contribution)"
-  venue: "FoGen@ICML 2026."
+  authors: "Y. Allouah*, M. Haghifam*, S. Koyejo, R. Shokri."
+  author_note: "* equal contribution"
+  venue: "FoGen @ ICML 2026 – Workshop on Foundations of Deep Generative Models"
   recent: true
   links:
     - label: paper
@@ -14,7 +15,7 @@
   year: 2026
   title: "What to Forget in Unlearning? Forget Set Curation for Language Models"
   authors: "A. Jha, A. Khatua, Y. Allouah, S. Koyejo."
-  venue: "FoGen@ICML 2026."
+  venue: "FoGen @ ICML 2026 – Workshop on Foundations of Deep Generative Models"
   recent: true
   links:
     - label: paper
@@ -27,7 +28,9 @@
   year: 2026
   title: "Distributional Machine Unlearning via Selective Data Removal"
   authors: "Y. Allouah, R. Guerraoui, S. Koyejo."
-  venue: "ICLR 2026; Oral at MUGen@ICML 2025."
+  venue: "ICLR 2026 – International Conference on Learning Representations"
+  venue_note: "MUGen @ ICML 2025 – Workshop on Machine Unlearning for Generative AI"
+  venue_note_distinction: "Oral"
   recent: true
   links:
     - label: paper
@@ -38,8 +41,9 @@
 - category: "Main Publications"
   year: 2025
   title: "Certified Unlearning for Neural Networks"
-  authors: "A. Koloskova*, Y. Allouah*, A. Jha, R. Guerraoui, S. Koyejo. (*equal contribution)"
-  venue: "ICML 2025."
+  authors: "A. Koloskova*, Y. Allouah*, A. Jha, R. Guerraoui, S. Koyejo."
+  author_note: "* equal contribution"
+  venue: "ICML 2025 – International Conference on Machine Learning"
   recent: true
   links:
     - label: paper
@@ -51,7 +55,7 @@
   year: 2025
   title: "Towards Trustworthy Federated Learning with Untrusted Participants"
   authors: "Y. Allouah, R. Guerraoui, J. Stephan."
-  venue: "ICML 2025."
+  venue: "ICML 2025 – International Conference on Machine Learning"
   links:
     - label: paper
       url: https://arxiv.org/abs/2505.01874
@@ -60,7 +64,7 @@
   year: 2025
   title: "The Utility and Complexity of In- and Out-of-Distribution Machine Unlearning"
   authors: "Y. Allouah, J. Kazdan, R. Guerraoui, S. Koyejo."
-  venue: "ICLR 2025."
+  venue: "ICLR 2025 – International Conference on Learning Representations"
   links:
     - label: paper
       url: https://arxiv.org/abs/2412.09119
@@ -71,7 +75,7 @@
   year: 2025
   title: "The Cost of Trust in Machine Learning: Privacy, Robustness, Unlearning, and their Interactions"
   authors: "Y. Allouah."
-  venue: "EPFL doctoral thesis, 2025."
+  venue: "EPFL 2025 – Doctoral thesis"
   links:
     - label: thesis
       url: https://infoscience.epfl.ch/entities/publication/57603c6c-5a1e-485c-af6b-b3c6b777ae26
@@ -80,7 +84,7 @@
   year: 2024
   title: "The Privacy Power of Correlated Noise in Decentralized Learning"
   authors: "Y. Allouah, A. Koloskova, A. El Firdoussi, M. Jaggi, R. Guerraoui."
-  venue: "ICML 2024."
+  venue: "ICML 2024 – International Conference on Machine Learning"
   links:
     - label: paper
       url: https://arxiv.org/abs/2405.01031
@@ -91,7 +95,7 @@
   year: 2024
   title: "Robust Sparse Voting"
   authors: "Y. Allouah, R. Guerraoui, L. Hoang, O. Villemaud."
-  venue: "AISTATS 2024."
+  venue: "AISTATS 2024 – International Conference on Artificial Intelligence and Statistics"
   links:
     - label: paper
       url: https://arxiv.org/abs/2202.08656
@@ -102,7 +106,8 @@
   year: 2023
   title: "Robust Distributed Learning: Tight Error Bounds and Breakdown Point under Data Heterogeneity"
   authors: "Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk."
-  venue: "NeurIPS 2023, Spotlight."
+  venue: "NeurIPS 2023 – Conference on Neural Information Processing Systems"
+  distinction: "Spotlight"
   links:
     - label: paper
       url: https://arxiv.org/abs/2309.13591
@@ -115,7 +120,7 @@
   year: 2023
   title: "On the Privacy-Robustness-Utility Trilemma in Distributed Learning"
   authors: "Y. Allouah, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan."
-  venue: "ICML 2023."
+  venue: "ICML 2023 – International Conference on Machine Learning"
   links:
     - label: paper
       url: https://arxiv.org/abs/2302.04787
@@ -126,7 +131,7 @@
   year: 2023
   title: "Fixing by Mixing: a Recipe for Optimal Byzantine ML under Heterogeneity"
   authors: "Y. Allouah, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, J. Stephan."
-  venue: "AISTATS 2023."
+  venue: "AISTATS 2023 – International Conference on Artificial Intelligence and Statistics"
   links:
     - label: paper
       url: https://arxiv.org/abs/2302.01772
@@ -135,34 +140,53 @@
   year: 2025
   title: "Adaptive Gradient Clipping for Robust Federated Learning"
   authors: "Y. Allouah, R. Guerraoui, N. Gupta, A. Jellouli, G. Rizk, J. Stephan."
-  venue: "ICLR 2025, Spotlight."
+  venue: "ICLR 2025 – International Conference on Learning Representations"
+  distinction: "Spotlight"
+  links:
+    - label: paper
+      url: https://openreview.net/pdf?id=03OkC0LKDD
 
 - category: "Other Publications"
   year: 2024
   title: "Revisiting Ensembling in One-Shot Federated Learning"
   authors: "Y. Allouah, A. Dhasade, R. Guerraoui, N. Gupta, A.-M. Kermarrec, R. Pinot, R. Pires, R. Sharma."
-  venue: "NeurIPS 2024."
+  venue: "NeurIPS 2024 – Conference on Neural Information Processing Systems"
+  links:
+    - label: paper
+      url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/7ea46207ec9bda974b140fe11d8dd727-Abstract-Conference.html
 
 - category: "Other Publications"
   year: 2024
   title: "Fine-Tuning Personalization in Federated Learning to Mitigate Adversarial Clients"
   authors: "Y. Allouah, A. El Mrini, R. Guerraoui, N. Gupta, R. Pinot."
-  venue: "NeurIPS 2024."
+  venue: "NeurIPS 2024 – Conference on Neural Information Processing Systems"
+  links:
+    - label: paper
+      url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6d0df730c5976ad918bbf4fb30afe7d-Abstract-Conference.html
 
 - category: "Other Publications"
   year: 2024
   title: "Byzantine-Robust Federated Learning: Impact of Client Subsampling and Local Updates"
   authors: "Y. Allouah, S. Farhadkhani, R. Guerraoui, N. Gupta, R. Pinot, G. Rizk, S. Voitovych."
-  venue: "ICML 2024."
+  venue: "ICML 2024 – International Conference on Machine Learning"
+  links:
+    - label: paper
+      url: https://proceedings.mlr.press/v235/allouah24a.html
 
 - category: "Other Publications"
   year: 2021
   title: "Further Results on Latent Discourse Models and Word Embeddings"
   authors: "S. Khalife, D. Goncalves, Y. Allouah, L. Liberti."
-  venue: "JMLR 2021."
+  venue: "JMLR 2021 – Journal of Machine Learning Research"
+  links:
+    - label: paper
+      url: https://jmlr.org/papers/v22/20-1413.html
 
 - category: "Preprints and Technical Reports"
   year: 2025
   title: "Efficient Prediction of Pass@k Scaling in Large Language Models"
   authors: "J. Kazdan, R. Schaeffer, Y. Allouah, C. Sullivan, K. Yu, N. Levi, S. Koyejo."
-  venue: "arXiv 2025."
+  venue: "arXiv 2025 – Preprint"
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2510.05197

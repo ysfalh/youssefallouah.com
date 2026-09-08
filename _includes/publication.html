@@ -1,0 +1,7 @@
+<div class="paper">
+  <h3 class="paper-title">{{ include.publication.title | escape }}</h3>
+  <p class="authors">{{ include.publication.authors | escape }}{% if include.publication.author_note %} <small class="author-note">({{ include.publication.author_note | escape }})</small>{% endif %}</p>
+  <p class="venue">{{ include.publication.venue | escape }}{% if include.publication.distinction %} <strong>({{ include.publication.distinction | escape }})</strong>{% endif %}</p>
+  {% if include.publication.venue_note %}<p class="venue">{{ include.publication.venue_note | escape }}{% if include.publication.venue_note_distinction %} <strong>({{ include.publication.venue_note_distinction | escape }})</strong>{% endif %}</p>{% endif %}
+  {% if include.publication.links %}<p class="paper-links">{% for link in include.publication.links %}<a href="{{ link.url | escape }}" aria-label="{{ link.label | capitalize | escape }} for {{ include.publication.title | escape }}">{{ link.label | escape }}</a>{% unless forloop.last %}<span class="paper-link-separator" aria-hidden="true">·</span>{% endunless %}{% endfor %}</p>{% endif %}
+</div>

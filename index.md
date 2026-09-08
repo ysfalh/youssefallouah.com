@@ -1,13 +1,7 @@
 ---
 layout: default
+home: true
 ---
-
-<nav class="page-toc" aria-label="Table of contents">
-  <span class="toc-label">Contents</span>
-  <a href="{{ "/publications.html" | relative_url }}">Publications</a>
-  <a href="{{ "/talks.html" | relative_url }}">Talks</a>
-  <a href="{{ "/blog.html" | relative_url }}">Blog</a>
-</nav>
 
 ## Recent Publications
 
@@ -15,10 +9,5 @@ layout: default
 
 {% assign recent_publications = site.data.publications | where: "recent", true %}
 {% for publication in recent_publications %}
-<div class="paper">
-  <span class="paper-title">{{ publication.title }}</span>
-  {% if publication.links %}<span class="paper-links">{% for link in publication.links %}[<a href="{{ link.url }}">{{ link.label }}</a>]{% unless forloop.last %} {% endunless %}{% endfor %}</span>{% endif %}<br>
-  <span class="authors">{{ publication.authors }}</span><br>
-  <span class="venue">{{ publication.venue | replace: "Oral", "<strong>Oral</strong>" | replace: "Spotlight", "<strong>Spotlight</strong>" }}</span>
-</div>
+{% include publication.html publication=publication %}
 {% endfor %}

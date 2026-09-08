@@ -11,6 +11,7 @@
   </head>
   <body>
     <main class="page">
+      {% if page.home %}
       <header class="site-header">
         <div class="header-bio">
           <div class="author-mark">
@@ -37,7 +38,13 @@
         </div>
       </header>
 
+      {% include navigation.html %}
+      {% else %}
+      {% include compact-header.html %}
+      {% endif %}
+
       <section class="content">
+        {% unless page.home %}<h1 class="page-title">{{ page.title | escape }}</h1>{% endunless %}
         {{ content }}
       </section>
     </main>
