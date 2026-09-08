@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Youssef Allouah
 home: true
 ---
 
