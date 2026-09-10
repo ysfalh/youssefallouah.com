@@ -6,7 +6,7 @@ permalink: /talks.html
 
 <div class="paper">
   <h2 class="paper-title">Privacy versus Robustness: Limits and Algorithms in Federated Learning</h2>
-  <p class="venue">Simons Institute for the Theory of Computing, February 24, 2026</p>
+  <p class="venue">Simons Institute for the Theory of Computing, UC Berkeley, 2026</p>
   <p class="paper-links"><a href="https://simons.berkeley.edu/talks/youssef-allouah-stanford-university-2026-02-24">talk</a></p>
 </div>
 

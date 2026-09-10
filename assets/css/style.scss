@@ -496,6 +496,10 @@ i {
   font-style: italic;
 }
 
+.paper .authors ~ .venue {
+  font-size: 0.92rem;
+}
+
 .venue strong {
   color: var(--highlight);
   font-weight: 700;
