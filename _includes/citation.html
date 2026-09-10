@@ -1,0 +1,6 @@
+{%- assign reference = include.reference -%}
+{%- if include.bibliography -%}
+  {{ reference.bibliography_authors | escape }}. “<a href="{{ reference.url | escape }}">{{ reference.title | escape }}</a>.”
+{%- else -%}
+  {{ reference.authors | escape }}, “<a href="{{ reference.url | escape }}">{{ reference.title | escape }}</a>{% if reference.publication or reference.details %},{% else %}.{% endif %}”
+{%- endif %} {% if reference.publication %}<em>{{ reference.publication | escape }}</em> {% endif %}{{ reference.details | escape }}

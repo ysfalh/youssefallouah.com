@@ -9,18 +9,19 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <main class="page article-page">
+    <main class="page article-page{% if page.sidenotes %} article-with-sidenotes{% endif %}">
       {% include compact-header.html %}
 
       <article>
         <header class="article-header">
-          <h1>{{ page.title }}</h1>
-          <p class="article-meta">{{ page.author | default: "Youssef Allouah" }} · Written {{ page.date | date: "%B %-d, %Y" }}</p>
+          <h1>{{ page.title | escape }}</h1>
+          <p class="article-meta"><span>{{ page.author | default: "Youssef Allouah" | escape }}</span><span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>{% if page.last_modified_at %}<span class="article-updated">Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></span>{% endif %}</p>
         </header>
 
         <div class="article-body">
           {{ content }}
         </div>
+        {% if page.references %}{% include references.html %}{% endif %}
       </article>
     </main>
   </body>

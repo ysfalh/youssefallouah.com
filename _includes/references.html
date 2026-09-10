@@ -1,0 +1,7 @@
+<section class="article-references" aria-labelledby="references" role="doc-bibliography">
+  <h2 id="references">References</h2>
+  {% assign references = page.references | sort: "bibliography_authors" %}
+  {% for reference in references %}
+  <p class="reference-entry" id="reference-{{ reference.id }}">{% include citation.html reference=reference bibliography=true %}</p>
+  {% endfor %}
+</section>
