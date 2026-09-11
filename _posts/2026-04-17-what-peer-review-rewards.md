@@ -6,8 +6,8 @@ last_modified_at: 2026-09-10
 author: "Youssef Allouah"
 permalink: /2026/04/17/what-peer-review-rewards.html
 sidenotes: true
-excerpt: "The credit a paper receives should respond to what we learn about it after acceptance, and authors should have reason to expect that it will."
-description: "The credit a paper receives should respond to what we learn about it after acceptance, and authors should have reason to expect that it will."
+excerpt: "Random audits of accepted papers could encourage more careful research by tying the credit a paper receives to how well its claims hold up."
+description: "Random audits of accepted papers could encourage more careful research by tying the credit a paper receives to how well its claims hold up."
 references:
   - id: neurips
     number: 1
@@ -108,7 +108,7 @@ An audit lottery would only affect incentives if authors expected both a meaning
 
 It is reasonable to imagine starting with a small funded pilot and examining both what it discovers and what happens to those findings. Do reports lead to corrections, better comparisons, or useful confirmations? Do subsequent researchers and reviewers use them? Is that value worth the effort, compared with supporting researcher-selected reproduction studies or improving the original reviews?
 
-The reason to try is that the prospect of later examination could make careful and checkable work more worthwhile before submission. That is arguably the change we would all like to see: the credit a paper receives should respond to what we learn about it after acceptance, and authors should have reason to expect that it will.
+It seems that an audit lottery is worth trying. It actually seems "trivial" after the fact: if later scrutiny mattered more to the credit a paper receives, authors would have more reason to check and document their work before submission.
 
 ## Acknowledgements
 
