@@ -15,6 +15,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Prevent Bundler from switching back to the lockfile's Ruby-2-era version.
+      BUNDLER_VERSION: '2.5.23'
     steps:
       - name: Check out the complete content history
         uses: actions/checkout@v6
@@ -25,8 +28,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          # The local lockfile was created with Bundler 1, which predates Ruby 3.
-          bundler: '2.5.23'
+          bundler: ${{ env.BUNDLER_VERSION }}
           bundler-cache: true
 
       - name: Configure Pages
