@@ -2,6 +2,8 @@
 layout: default
 title: Youssef Allouah
 home: true
+last_modified_paths:
+  - _data/publications.yml
 ---
 
 ## Recent Publications

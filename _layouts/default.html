@@ -47,6 +47,7 @@
         {% unless page.home %}<h1 class="page-title">{{ page.title | escape }}</h1>{% endunless %}
         {{ content }}
       </section>
+      {% include footer.html %}
     </main>
   </body>
 </html>

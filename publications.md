@@ -2,6 +2,8 @@
 layout: default
 title: Publications
 permalink: /publications.html
+last_modified_paths:
+  - _data/publications.yml
 ---
 
 {% assign publications = site.data.publications | where_exp: "publication", "publication.category != 'Thesis'" %}

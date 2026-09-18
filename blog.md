@@ -2,6 +2,8 @@
 layout: default
 title: Blog
 permalink: /blog.html
+last_modified_paths:
+  - _posts
 ---
 
 {% for post in site.posts %}
