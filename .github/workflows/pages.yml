@@ -35,6 +35,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Check content modification history
+        run: bundle exec ruby _tests/last_modified.rb
+
       - name: Build with custom plugins enabled
         env:
           JEKYLL_ENV: production
