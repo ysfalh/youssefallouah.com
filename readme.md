@@ -27,6 +27,17 @@ fall back to source-file modification times. Pages can list content dependencies
 `_plugins/last_modified.rb`; builds must allow local Jekyll plugins and retain Git
 history. Restart `jekyll serve` after changing plugins or `_config.yml`.
 
+## Publishing
+
+In the repository's **Settings → Pages → Build and deployment**, set **Source**
+to **GitHub Actions**. The default **Deploy from a branch** build disables custom
+plugins, which leaves the footer timestamps empty.
+
+`.github/workflows/pages.yml` builds and deploys on pushes to `main`. It checks
+out the full Git history, runs `bundle exec jekyll build` with custom plugins
+enabled, and checks for missing footer timestamps before publishing. You can
+also run **Deploy Jekyll site to Pages** manually from the Actions tab.
+
 ## Editing the site
 
 - `index.md`, `publications.md`, `talks.md`, and `blog.md` contain the main pages.

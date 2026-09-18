@@ -1,0 +1,78 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the complete content history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          # The local lockfile was created with Bundler 1, which predates Ruby 3.
+          bundler: '2.5.23'
+          bundler-cache: true
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with custom plugins enabled
+        env:
+          JEKYLL_ENV: production
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: bundle exec jekyll build --baseurl "$PAGES_BASE_PATH"
+
+      - name: Check footer timestamps before publishing
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          import re
+
+          footers = []
+          for page in Path('_site').rglob('*.html'):
+              for footer in re.findall(r'<footer class="site-footer">(.*?)</footer>', page.read_text(), re.S):
+                  timestamp = re.search(r'<time datetime="([^"]+)">([^<]+)</time>', footer)
+                  assert timestamp, f'Missing footer timestamp: {page}'
+                  assert datetime.fromisoformat(timestamp[1]).utcoffset() is not None, page
+                  assert re.search(r'\bP[SD]T\b', timestamp[2]), page
+                  footers.append(page)
+          assert footers, 'No page footers were generated'
+          print(f'Checked {len(footers)} page timestamps.')
+          PY
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
