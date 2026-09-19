@@ -58,7 +58,7 @@ One analogy I like is bread (cheese probably works too). Back in France, the *ba
 
 <figure class="article-figure">
   <a href="https://commons.wikimedia.org/wiki/File:040105_Brabyn_4640wc.jpg">
-    <img src="{{ '/assets/img/baguette-grand-prix-2004.jpg' | relative_url }}" alt="A judge examines the aroma of two baguettes at the 2004 Grand Prix de la Baguette in Paris." width="1500" height="999" loading="lazy" decoding="async">
+    <img src="{{ '/assets/img/baguette-grand-prix-2004.jpg' | relative_url }}" alt="A judge examines the aroma of two baguettes at the 2004 Grand Prix de la Baguette in Paris." width="1500" height="999" style="height: auto;" loading="lazy" decoding="async">
   </a>
   <figcaption>Rigorous peer-review at the Grand Prix de la Baguette de Tradition Française de la Ville de Paris. The winner earned the right to supply the French president’s office for a year. Photo: <a href="https://commons.wikimedia.org/wiki/File:040105_Brabyn_4640wc.jpg">David Brabyn</a>.</figcaption>
 </figure>
