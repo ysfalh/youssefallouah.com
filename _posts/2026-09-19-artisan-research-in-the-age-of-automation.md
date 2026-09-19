@@ -5,8 +5,8 @@ date: 2026-09-19
 author: "Youssef Allouah"
 permalink: /2026/09/19/artisan-research-in-the-age-of-automation.html
 sidenotes: true
-excerpt: "Maybe research needs its own artisan bakeries: a place for human judgment, apprenticeship, and care, even as automated research becomes abundant and cheap."
-description: "Maybe research needs its own artisan bakeries: a place for human judgment, apprenticeship, and care, even as automated research becomes abundant and cheap."
+excerpt: "Maybe scientific research needs its own artisan bakeries: a place for human judgment, apprenticeship, and care, even as automated research becomes abundant and cheap."
+description: "Maybe scientific research needs its own artisan bakeries: a place for human judgment, apprenticeship, and care, even as automated research becomes abundant and cheap."
 references:
   - id: openai-navier-stokes
     number: 1
