@@ -6,11 +6,11 @@ last_modified_paths:
   - _data/publications.yml
 ---
 
-## Recent Publications
+## Recent Work
 
 <p class="note">See the <a href="{{ "/publications.html" | relative_url }}">publications</a> page for the complete list.</p>
 
 {% assign recent_publications = site.data.publications | where: "recent", true %}
 {% for publication in recent_publications %}
-{% include publication.html publication=publication %}
+{% include publication.html publication=publication recent=true %}
 {% endfor %}
