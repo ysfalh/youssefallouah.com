@@ -11,6 +11,12 @@ permalink: /talks.html
 </div>
 
 <div class="paper">
+  <h2 class="paper-title">Distributional Unlearning: Forgetting Distributions, Not Just Samples</h2>
+  <p class="venue">ICML Workshop on Machine Unlearning for Generative AI (MUGen), 2025 (Oral)</p>
+  <p class="paper-links"><a href="https://mugenworkshop.github.io/">talk</a></p>
+</div>
+
+<div class="paper">
   <h2 class="paper-title">Trustworthy Machine Learning</h2>
   <p class="venue">UM6P College of Computing, 2024</p>
   <p class="paper-links"><a href="https://www.youtube.com/live/ccIzC603Vo4?si=VqPOyGQMjBb5bI_c&amp;t=6900">video</a></p>
