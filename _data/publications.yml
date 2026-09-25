@@ -16,14 +16,23 @@
   year: 2026
   title: "What to Forget in Unlearning? Forget Set Curation for Language Models"
   authors: "A. Jha, A. Khatua, Y. Allouah, S. Koyejo."
-  venue: "ICML Workshop on Foundations of Deep Generative Models (FoGen), 2026"
-  workshop_only: true
+  venue: "Conference on Neural Information Processing Systems (NeurIPS), 2026"
+  workshop_only: false
   recent: true
   links:
     - label: paper
       url: https://arxiv.org/abs/2608.14855
     - label: code
       url: https://github.com/akhatua2/CleanSlate
+
+- category: "Main Publications"
+  year: 2026
+  title: "Efficient Prediction of Pass@k Scaling in Large Language Models"
+  authors: "J. Kazdan, R. Schaeffer, Y. Allouah, C. Sullivan, K. Yu, N. Levi, S. Koyejo."
+  venue: "Conference on Neural Information Processing Systems (NeurIPS), 2026"
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2510.05197
 
 
 - category: "Main Publications"
@@ -184,11 +193,4 @@
     - label: paper
       url: https://jmlr.org/papers/v22/20-1413.html
 
-- category: "Preprints and Technical Reports"
-  year: 2025
-  title: "Efficient Prediction of Pass@k Scaling in Large Language Models"
-  authors: "J. Kazdan, R. Schaeffer, Y. Allouah, C. Sullivan, K. Yu, N. Levi, S. Koyejo."
-  venue: "Preprint (arXiv), 2025"
-  links:
-    - label: paper
-      url: https://arxiv.org/abs/2510.05197
+
