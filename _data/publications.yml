@@ -1,5 +1,27 @@
 - category: "Main Publications"
   year: 2026
+  title: "Fast but False Progress on Benchmarks with Richer Feedback"
+  authors: "Y. Allouah, J. Duchi, S. Koyejo."
+  recent: true
+  links:
+    - label: website
+      url: https://false-benchmark-progress.com
+    - label: code
+      url: https://github.com/ysfalh/fast-false-benchmark-progress
+
+- category: "Main Publications"
+  year: 2026
+  title: "How Reusable Are Benchmarks with Richer Feedback?"
+  authors: "Y. Allouah, J. Duchi."
+  recent: true
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2609.32109
+    - label: code
+      url: https://github.com/ysfalh/multi-criteria-benchmarks
+
+- category: "Main Publications"
+  year: 2026
   title: "The Distillation Game: Adaptive Attacks & Efficient Defenses"
   authors: "Y. Allouah*, M. Haghifam*, S. Koyejo, R. Shokri."
   author_note: "* equal contribution"
@@ -55,7 +77,6 @@
   authors: "A. Koloskova*, Y. Allouah*, A. Jha, R. Guerraoui, S. Koyejo."
   author_note: "* equal contribution"
   venue: "International Conference on Machine Learning (ICML), 2025"
-  recent: true
   links:
     - label: paper
       url: https://arxiv.org/abs/2506.06985
