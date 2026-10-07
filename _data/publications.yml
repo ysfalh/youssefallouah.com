@@ -22,7 +22,7 @@
 
 - category: "Main Publications"
   year: 2026
-  title: "The Distillation Game: Adaptive Attacks & Efficient Defenses"
+  title: "The Distillation Game: Adaptive Evaluations & Efficient Defenses"
   authors: "Y. Allouah*, M. Haghifam*, S. Koyejo, R. Shokri."
   author_note: "* equal contribution"
   venue: "ICML Workshop on Foundations of Deep Generative Models (FoGen), 2026"
