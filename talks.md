@@ -5,6 +5,12 @@ permalink: /talks.html
 ---
 
 <div class="paper">
+  <h2 class="paper-title">What Does It Mean for a Language Model to Forget?</h2>
+  <p class="venue">COLM Workshop on Adversarial Machine Learning (AdvML-Frontiers × CoTMA), 2026</p>
+  <p class="paper-links"><a href="https://advml-frontier.github.io/#schedule">talk</a><span class="paper-link-separator" aria-hidden="true">·</span><a href="{{ '/assets/slides/advml_colm.pdf' | relative_url }}">slides</a></p>
+</div>
+
+<div class="paper">
   <h2 class="paper-title">Privacy versus Robustness: Limits and Algorithms in Federated Learning</h2>
   <p class="venue">Simons Institute for the Theory of Computing, UC Berkeley, 2026</p>
   <p class="paper-links"><a href="https://simons.berkeley.edu/talks/youssef-allouah-stanford-university-2026-02-24">talk</a></p>
